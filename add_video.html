@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Add New Video</title>
+</head>
+
+<body>
+	<h1>Add New Video</h1>
+	<form action="add_video.php" method="post" enctype="multipart/form-data">
+		<label for="title">Title:</label>
+		<input type="text" name="title" required><br><br>
+
+		<label for="country">Country:</label>
+		<input type="text" name="country" required><br><br>
+
+		<label for="image">Upload Image:</label>
+		<input type="file" name="image" accept="image/*" required><br><br>
+		
+		<input type="submit" value="Add Video">
+
+	</form>
+</body>
+
+</html>
